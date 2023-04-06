@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #aaa;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -14,7 +14,7 @@ body {
     color: #f9faf8;
     align-items: center;
     padding: 20px 0px 20px 100px;
-    background-color: #1F2937;
+    background-color: #bbbbbb;
 }
 .links{
     padding-right: 60px;
@@ -22,9 +22,10 @@ body {
     align-items: center;
 }
 .img{
-    height: 70px;
-    width: 125px;
+    height: 80px;
+    width: 90px;
     margin-right: auto;
+    background-color: transparent;
 }
 .links a{
     padding: 10px;
@@ -38,7 +39,7 @@ body {
     padding: 90px;
     justify-content: center;
     color: #E5E7EB;
-    background-color: #1F2937;
+    background-color: #cc8d78;
 }
 .imghero{
     width: 400px;
@@ -47,17 +48,17 @@ body {
 .hero_main_text{
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;
+    color: #171717;
     font-family: 'roboto', Arial;
 }
 .sec_text{
     font-size: 24px;
-    color: #f9faf8;
+    color: #171717;
     font-family: 'roboto', Arial;
     opacity: 0.7;
 }
 .lefthero button{
-    background-color: #3882f6;
+    background-color: #af4f41;
     border: none;
     border-radius: 8px;
     width: 110px;
@@ -65,16 +66,15 @@ body {
 }
 .lefthero{
     display: flex;
-    flex-basis: 400px;
+    flex-basis: 520px;
     flex-direction: column;
     text-align: left;
-    margin-right: 50px;
+    margin-right: 55px;
     align-items: flex-start;
 }
 .middleimages img{
-    width: 200px;
-    height: 100px;
-    object-fit: cover;
+    width: 235px;
+    height: 235px;
     margin: 5px 20px 0px 20px;
 }
 .middleimages{
@@ -99,6 +99,9 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+.middle{
+    background-color: #ccc;
 }
 .quote{
     display: flex;
